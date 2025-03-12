@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* #main{ */
+    /* background-color: aqua; */
+    /* position: fixed; */
+    
+/* } */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #90e7ff;
+    height:10vh;
+    /* position: sticky; */
+    /* top: 0; */
+   
+  
+    
+
+}
+#logo{
+    margin: 5px;
+    padding: 5px;
+   
+}
+.navul{
+    
+        display:flex;
+        justify-content: space-between ;
+        width: 300px;
+        margin-right: 10px;
+        margin-top: 5px;
+        padding: 10px;
+        list-style: none;
+        
+        
+        
+}
+
+#section{
+    background-color: #90ff90;
+    height: 80vh;
+    background: linear-gradient(to right, rgba(102,178,255,0.5), rgba(255,204,255,0.5)), url('../images/cosmetic1.jpg');
+    /* background: linear-gradient(to right, red 30%, blue 40%, yellow 90%, orangered 99%); */
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    object-fit: fill;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+.text{
+    align-items: center;
+    position: relative;
+    top: 40%;
+    /* left: 0; */
+    text-align: center;
+    color: white;
+    
+       
+}
+.new{
+    font-size: 3.3rem;
+}
+.para{
+    margin: 5px;
+    font-size: 1.5rem;
+    color: black;
+}
+.button{
+    margin: 30px;  
+}
+.box{
+    border: 1px solid rgb(197, 151, 206);
+    padding: 10px 30px;
+    /* background-color: rgba(60, 195, 148, 0.132); */
+    background-color: antiquewhite;
+    border-radius: 8px;
+    color: black;
+
+}
+.box:hover{
+    color: white;
+    background-color: blue;
+    transition: 1s ease;
+}
+
+.navul li a:hover{
+    color: aqua;
+}
+
+#footer{
+    background-color: #90e7ff;
+    height: 10vh;
+    /* margin: 10px; */
+    padding: 20px;
+    
+}
